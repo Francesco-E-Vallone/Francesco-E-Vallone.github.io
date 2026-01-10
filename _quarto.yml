@@ -1,0 +1,32 @@
+project:
+  type: website
+  render: 
+    - "*.qmd"
+
+website:
+  title: "Francesco E. Vallone"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: talks.qmd
+        text: Talks
+      - href: cv.qmd
+        text: CV
+      - href: contacts.qmd
+        text: Contacts
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: full
+    css: styles.css
+    include-before-body: includes/before-body.html
+    include-after-body: includes/after-body.html

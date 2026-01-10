@@ -1,0 +1,279 @@
+/* ===== Option A — clean academic + readable ===== */
+
+/* Fonts (editorial headings + modern body) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap');
+
+:root{
+  --bg: #f6f7f9;
+  --panel: #ffffff;
+  --border: rgba(17, 24, 39, 0.10);
+  --text: #111827;
+  --muted: rgba(17, 24, 39, 0.70);
+  --accent: #1f6f6e;
+
+  /* Adjust if your navbar height differs */
+  --nav-h: 56px;
+
+  /* Sidebar width: keep these in sync */
+  --sidebar-w: 290px;
+}
+
+/* Quarto defaults that cause the “wtf gutter” */
+main#quarto-document-content{
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Background */
+html, body{
+  background: var(--bg) !important;
+}
+
+body{
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  font-size: 16.5px;
+  line-height: 1.65;
+}
+
+/* Headings = serif for a more “serious” feel */
+h1, h2, h3, h4{
+  font-family: "Source Serif 4", Georgia, serif;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+/* Links */
+a{
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover{
+  color: #195b5a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ===== Sidebar ===== */
+#site-sidebar{
+  position: fixed;
+  top: var(--nav-h);                                /* avoid navbar overlap */
+  left: 0;
+  width: var(--sidebar-w);
+  height: calc(100vh - var(--nav-h));
+  overflow-y: auto;
+
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+
+  padding: 1.4rem 1.2rem;
+  z-index: 1020;                                    /* navbar stays above */
+}
+
+.sidebar-inner{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.sidebar-photo{
+  width: 128px;
+  height: 128px;
+  border-radius: 9999px;
+  object-fit: cover;
+  object-position: 50% 18%;                         /* tweak if needed */
+  display: block;
+  border: 1px solid rgba(17,24,39,0.10);
+  box-shadow: 0 8px 20px rgba(17,24,39,0.06);
+  margin-top: 0.2rem;
+}
+
+.sidebar-name{
+  font-size: 1.06rem;
+  font-weight: 700;
+  margin-top: 0.6rem;
+  line-height: 1.15;
+}
+
+.sidebar-role,
+.sidebar-affil{
+  font-size: 0.92rem;
+  line-height: 1.25;
+  color: var(--muted);
+}
+
+/* Sidebar sections */
+.sidebar-section{
+  margin-top: 1.0rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(17,24,39,0.08);
+}
+
+.sidebar-section-title{
+  margin: 0 0 0.45rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+  font-size: 0.75rem;
+  color: rgba(17,24,39,0.55);
+  font-weight: 600;
+}
+
+/* Links grid (compact, less “menu”) */
+.sidebar-links{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 0.9rem;
+}
+.sidebar-links li{ margin: 0; }
+.sidebar-links a{
+  font-size: 0.92rem;
+  color: var(--accent);
+}
+
+/* Mini links area if you use it */
+.sidebar-mini{
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(17,24,39,0.08);
+  font-size: 0.90rem;
+  color: var(--muted);
+}
+.sidebar-mini a{ color: var(--accent); }
+
+/* ===== Main area ===== */
+#site-main{
+  margin-left: var(--sidebar-w);
+  padding: calc(var(--nav-h) + 1.2rem) 1.2rem 1.6rem 1.2rem; /* clears navbar */
+  min-height: 100vh;
+}
+
+/* The actual “page card” wrapper we added */
+#site-main-inner{
+  width: 100%;
+  max-width: 880px;
+
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+
+  padding: 2.0rem 2.0rem;
+  box-shadow: 0 10px 30px rgba(17,24,39,0.05);
+}
+
+
+/* Content spacing */
+p{ margin-bottom: 0.95rem; }
+
+ul, ol{
+  margin-top: 0.4rem;
+  margin-bottom: 1.05rem;
+  padding-left: 1.2rem;
+}
+li{ margin: 0.25rem 0; }
+
+hr{
+  border: none;
+  border-top: 1px solid rgba(17,24,39,0.10);
+  margin: 1.6rem 0;
+}
+
+/* Navbar: keep it, match typography */
+.navbar, .navbar *{
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 991px){
+  #site-sidebar{
+    position: static;
+    width: auto;
+    height: auto;
+    top: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 1.1rem 1.0rem;
+  }
+
+  #site-main{
+    margin-left: 0;
+    padding: 1.0rem 1.0rem;
+  }
+
+  #site-main-inner{
+    max-width: 100%;
+    border-radius: 14px;
+    padding: 1.35rem 1.2rem;
+  }
+
+  .sidebar-photo{
+    width: 110px;
+    height: 110px;
+  }
+}
+
+/* === Sidebar hierarchy + spacing fix (drop-in overrides) === */
+
+/* 1) Slightly tighter overall rhythm */
+#site-sidebar{
+  padding: 1.25rem 1.15rem; /* was 1.4/1.2 */
+}
+
+/* 2) Stop the sidebar from feeling “loose” */
+.sidebar-inner{
+  gap: 0.45rem; /* was 0.6 */
+}
+
+/* 3) Name: less chunky, more academic */
+.sidebar-name{
+  font-size: 1.03rem;
+  font-weight: 650;  /* was 700 */
+  margin-top: 0.55rem;
+  margin-bottom: 0.15rem;
+}
+
+/* 4) Role/Affil: tighter + deliberate separation */
+.sidebar-role,
+.sidebar-affil{
+  font-size: 0.90rem;
+  line-height: 1.18;  /* was 1.25 */
+  margin: 0;          /* kill any default margins */
+  color: var(--muted);
+}
+
+.sidebar-affil{
+  margin-top: 0.35rem; /* creates a clean break */
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(17,24,39,0.08); /* subtle separator */
+}
+
+/* 5) Links section: tighter + more “toolbox” */
+.sidebar-section{
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+}
+
+.sidebar-section-title{
+  margin-bottom: 0.35rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+}
+
+/* Make links slightly smaller and denser */
+.sidebar-links a{
+  font-size: 0.90rem;
+}
+
+/* 6) Make sure main card is NOT accidentally centered */
+#site-main-inner{
+  margin: 0; /* important */
+}
+
+/* === Wider card, responsive and controlled === */
+#site-main-inner{
+  max-width: clamp(880px, 72vw, 1040px);
+}

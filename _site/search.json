@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Francesco Edoardo Vallone\n    PhD Candidate · Computational Cancer Biology (Omics)\n    University of Turin · Functional Genomics Unit\n\n    \n      Links\n      \n        Email\n        GitHub\n        ORCID\n        ResearchGate"
+  },
+  {
+    "objectID": "talks.html#oral-presentations-presenter-first-author",
+    "href": "talks.html#oral-presentations-presenter-first-author",
+    "title": "Talks",
+    "section": "Oral presentations (presenter / first author)",
+    "text": "Oral presentations (presenter / first author)\n\nEuropean School of Hematology (ESH) — Vienna, Austria — Mar 2024 — Oral presentation\nDefining common genomic and transcriptomic profiles in Richter’s syndrome paves the way for drug repurposing strategies.\nNO-CANCER Congress — Novara, Italy — May 2024 — Short talk\nDefining common genomic and transcriptomic profiles in Richter’s syndrome paves the way for drug repurposing strategies."
+  },
+  {
+    "objectID": "talks.html#posters-first-author",
+    "href": "talks.html#posters-first-author",
+    "title": "Talks",
+    "section": "Posters (first author)",
+    "text": "Posters (first author)\n\nERIC — Barcelona, Spain — Sep 2024 — Poster\nDefining common genomic and transcriptomic profiles in Richter’s syndrome paves the way for drug repurposing strategies."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Francesco Edoardo Vallone\n    PhD Candidate · Computational Cancer Biology (Omics)\n    University of Turin · Functional Genomics Unit\n\n    \n      Links\n      \n        Email\n        GitHub\n        ORCID\n        ResearchGate"
+  },
+  {
+    "objectID": "research.html#phd-project-bcr-stereotypy-notch1-in-cll",
+    "href": "research.html#phd-project-bcr-stereotypy-notch1-in-cll",
+    "title": "Research",
+    "section": "PhD project — BCR stereotypy × NOTCH1 in CLL",
+    "text": "PhD project — BCR stereotypy × NOTCH1 in CLL\n\nQuestion\nIn CLL, NOTCH1 is one of the most recurrent mutations, and BCR stereotypy defines reproducible biological subsets. Evidence also points to a bidirectional link between BCR signaling and NOTCH1.\nI first map the programs that define stereotyped subsets in NOTCH1-wt CLL, then test how NOTCH1 co-occurrence rewires those programs within each subset, and whether the shifts align with the expected activation/aggressiveness differences.\n\n\nDesign (what we compare)\n\nSubsets: #4 (IGHV4-34), #1 (IGHV1-69), #3 (IGHV3-21)\nGenotype: NOTCH1-mut vs NOTCH1-wt\nGoal: separate subset-intrinsic programs from NOTCH1-dependent effects (and identify where the interaction creates a distinct state)\n\n\n\nWhy these subsets\nSubset #4 (IGHV4-34) is classically linked to a more indolent/anergic phenotype, whereas subset #1 (IGHV1-69) and subset #3 (IGHV3-21) are often associated with more activated/aggressive programs.\nThe point is to see what’s truly subset-intrinsic and what shifts with genotype and context.\n\n\nHow do I use the data\nI use multi-omics to answer biological questions, not just to summarize signals. The aim is to propose a mechanistic explanation (programs/regulators/dependencies), state the predictions it implies, and define the experimental readouts that can confirm or falsify it.\n\n\nData layers (in practice)\n\nBulk RNA-seq — transcriptional programs and pathway-level signatures (BCR-linked signaling; NFAT/AP-1; metabolic/microenvironment modules)\nCUT&Tag — TFs and histone marks, including enhancer activity readouts (H3K27ac) and NFAT-centered circuitry\nONT DNA methylation — methylation at promoters/regulatory elements integrated with expression and chromatin state\n\n\n\nMy contribution\n\nStudy design under constraints: multi-batch work (3 batches, dropouts/uneven libraries); rebuilt contrasts when designs became invalid and kept inference interpretable.\nQC + robustness: explicit QC gates, batch-aware modeling, and sanity checks so conclusions don’t collapse under reasonable re-analyses.\nMechanistic framing: translate multi-omics output into testable biological claims (not “pathways are enriched”).\n\nStatus: ongoing PhD work; links when public."
+  },
+  {
+    "objectID": "research.html#richter-transformation-first-author-shared-signatures-to-actionable-vulnerabilities",
+    "href": "research.html#richter-transformation-first-author-shared-signatures-to-actionable-vulnerabilities",
+    "title": "Research",
+    "section": "Richter transformation (first author) — shared signatures to actionable vulnerabilities",
+    "text": "Richter transformation (first author) — shared signatures to actionable vulnerabilities\n\nQuestion\nRT is rare, aggressive, and heterogeneous. The question behind this study was:\ncan integrated genomics + transcriptomics identify a reproducible RT “blueprint” across cohorts; and can that blueprint drive a rational drug-repurposing strategy that holds up in RT models?\n\n\nStudy setup (hard data)\n\n20 RT FFPE lymph-node biopsies profiled by targeted DNA sequencing (TSO500)\nRNA-seq for 14/20 (FFPE RNA quality constrained feasibility)\nIntegration with independent published RT cohorts to isolate signals stable beyond a single dataset\nDrug-repurposing step built from the multi-omics output: curated 66-drug library (pathway/target-driven) and tested in RT models\n\n\n\nMy contribution\n\nCo-defined the biological question and study logic with supervisors\nOwned the genomics/transcriptomics integration, cross-cohort comparisons, and signature → vulnerability prioritization logic\nLed interpretation and manuscript drafting with supervisor feedback\n\n\n\nExperimental linkage\nNot an in-silico-only story: prioritization was followed by in vitro testing in RT models (RT-PDX-derived models and U-RT1 cell line).\n\n\nOutput\n\nManuscript (submitted, Leukemia) — Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.\nSelected oral presentation — European School of Hematology (ESH), Vienna — Mar 2024"
+  },
+  {
+    "objectID": "research.html#selected-contribution-second-author-bcrnotch1-and-metabolic-reprogramming-in-cll",
+    "href": "research.html#selected-contribution-second-author-bcrnotch1-and-metabolic-reprogramming-in-cll",
+    "title": "Research",
+    "section": "Selected contribution (second author) — BCR–NOTCH1 and metabolic reprogramming in CLL",
+    "text": "Selected contribution (second author) — BCR–NOTCH1 and metabolic reprogramming in CLL\nOutside my PhD line, I contributed heavily to a manuscript on metabolic reprogramming in CLL in the context of BCR–NOTCH1 cooperation, focusing on analysis framework and design/QC decisions.\n\nOutput: Functional cooperation between the BCR and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia. (submitted/under review; second author)"
+  },
+  {
+    "objectID": "research.html#selected-methods-heavy-contribution-outside-my-main-disease-area",
+    "href": "research.html#selected-methods-heavy-contribution-outside-my-main-disease-area",
+    "title": "Research",
+    "section": "Selected methods-heavy contribution (outside my main disease area)",
+    "text": "Selected methods-heavy contribution (outside my main disease area)\nDonor-derived cfDNA in pediatric heart transplant monitoring (2024).\nI contributed the statistical/ML component, including the random forest analysis used for predictive modeling and feature prioritization.\nReference: Sorbini M, Aidala E, Carradori T, Vallone FE, et al. Donor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience. (2024)."
+  },
+  {
+    "objectID": "research.html#other-ongoing-collaborations",
+    "href": "research.html#other-ongoing-collaborations",
+    "title": "Research",
+    "section": "Other ongoing collaborations",
+    "text": "Other ongoing collaborations\n\nOngoing bulk RNA-seq analyses collaboration with CLL groups at IRCCS San Raffaele Hospital (HSR, Milan), including Scielzo and Ghia labs."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Francesco E. Vallone",
+    "section": "",
+    "text": "Francesco Edoardo Vallone\n    PhD Candidate · Computational Cancer Biology (Omics)\n    University of Turin · Functional Genomics Unit\n\n    \n      Links\n      \n        Email\n        GitHub\n        ORCID\n        ResearchGate"
+  },
+  {
+    "objectID": "index.html#computational-cancer-biologist-omics-cll-richter-transformation",
+    "href": "index.html#computational-cancer-biologist-omics-cll-richter-transformation",
+    "title": "Francesco E. Vallone",
+    "section": "Computational cancer biologist (omics) — CLL & Richter transformation",
+    "text": "Computational cancer biologist (omics) — CLL & Richter transformation\nPhD candidate at the University of Turin (Functional Genomics Unit, Italy) in computational cancer biology.\nMy main track is chronic lymphocytic leukemia (CLL): I study how B-cell receptor (BCR) stereotyped subsets and NOTCH1 mutation status shape transcriptional and regulatory programs using multi-omics. In parallel, I work on Richter transformation (RT) - the aggressive lymphoma that can arise from CLL - as a separate line focused on cross-cohort signatures and actionable vulnerabilities.\n\nWhat I’m working on now\n\nMain PhD (CLL): BCR stereotypy × NOTCH1 — multi-omics profiling of genotype-linked transcriptional/regulatory programs across IGHV4-34, IGHV1-69, and IGHV3-21 BCR stereotypes.\nRichter transformation (RT): cross-cohort genomics + transcriptomics to prioritize actionable vulnerabilities.\nActive collaborations: ongoing bulk RNA-seq analyses with CLL groups at IRCCS San Raffaele Hospital (HSR, Milan).\n\n\n\nSelected highlights\n\nFirst-author manuscript (submitted): Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies. (Leukemia)\nConference oral (selected): European School of Hematology (ESH), Vienna — March 2024 (Genomic and transcriptomic signatures in Richter transformation / drug repurposing).\nTeaching: BSc Biotechnology (Medical & Cancer Genetics; Epigenetics); MSc Medical Biotechnology (Biotech Therapies)\n\n\n\nEducation\n\nPhD, Medical Physiopathology (Computational Biology/Bioinformatics) — University of Turin — 2024–present (expected: Feb/March 2027)\nMaster II (Omics Data Analysis) — University of Padua — 2023–2024 (completed during first PhD year)\nMSc, Molecular Biotechnology — University of Turin — 2021–2023\nBSc, Biomedical Biotechnology — University of Palermo — 2018–2021\n\n\n\nWhere to go next\n\nResearch — projects and questions: Research\nPublications — papers (with status): Publications\nTalks — conference and seminar presentations: Talks\nSoftware — selected tools and code: Software\nCV — full record: CV\nContacts — email + profiles: Contacts"
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contacts",
+    "section": "",
+    "text": "Francesco Edoardo Vallone\n    PhD Candidate · Computational Cancer Biology (Omics)\n    University of Turin · Functional Genomics Unit\n\n    \n      Links\n      \n        Email\n        GitHub\n        ORCID\n        ResearchGate\n      \n    \n  \n\n\n\n\n\n\n\n\nEmail: francesco.edo.vallone@gmail.com\n\nGitHub: https://github.com/Francesco-E-Vallone\n\nORCID: https://orcid.org/0009-0006-0824-1038\n\nResearchGate: https://www.researchgate.net/profile/Francesco-Vallone-2"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Francesco Edoardo Vallone\n    PhD Candidate · Computational Cancer Biology (Omics)\n    University of Turin · Functional Genomics Unit\n\n    \n      Links\n      \n        Email\n        GitHub\n        ORCID\n        ResearchGate"
+  },
+  {
+    "objectID": "cv.html#research-focus-short",
+    "href": "cv.html#research-focus-short",
+    "title": "CV",
+    "section": "Research focus (short)",
+    "text": "Research focus (short)\nPhD candidate at the University of Turin (Functional Genomics Unit, Italy) in computational cancer biology.\nMy main track is chronic lymphocytic leukemia (CLL): I study how B-cell receptor (BCR) stereotyped subsets and NOTCH1 mutation status shape transcriptional and regulatory programs using multi-omics. In parallel, I work on Richter transformation (RT) - the aggressive lymphoma that can arise from CLL - as a separate line focused on cross-cohort signatures and actionable vulnerabilities."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nPhD, Medical Physiopathology (Computational Biology/Bioinformatics) — University of Turin — 2024–present (expected defense: Feb–Mar 2027)\nMaster II livello, Omics Data Analysis — University of Padua — 2023–2024 (Ottimo) (completed during first PhD year)\nMSc, Molecular Biotechnology — University of Turin — 2021–2023 (110/110 cum laude + honors)\nBSc, Biomedical Biotechnology — University of Palermo — 2018–2021 (102/110)"
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "CV",
+    "section": "Research experience",
+    "text": "Research experience\n\nPhD Researcher (Bioinformatics) — University of Turin, Dept. of Medical Sciences (2024–present)\n\nMain PhD project — BCR stereotypy × NOTCH1 in CLL. Quantify genotype-linked transcriptional and regulatory programs across stereotyped subsets (IGHV4-34, IGHV1-69, IGHV3-21), comparing NOTCH1-mut vs wt, and translate signals into mechanistic hypotheses and testable predictions.\nMulti-batch RNA-seq design & QC ownership. Managed a 3-batch study under real constraints (dropouts/uneven libraries): rebuilt contrasts when designs became invalid, enforced QC gates, and prevented analysis choices that would have confounded batch with biology.\nMulti-omics integration. Integrate bulk RNA-seq with CUT&Tag (TFs, H3K27ac) and ONT methylation to connect regulatory state to genotype/context and prioritize perturbation-ready hypotheses.\nExternal collaborations. Ongoing analysis collaboration with CLL groups at IRCCS San Raffaele Hospital (HSR, Milan) (study design support and bulk RNA-seq analysis).\nData stewardship (EGA). Controlled-access submissions (metadata, manifests, checksums, Crypt4GH; DAC coordination).\nInternal tooling. Built/maintain tools used in practice: TranscripTools (R) and RNAseq-DB-explorer (Shiny).\n\n\n\nResearch Fellow (Bioinformatics) — University of Turin, Dept. of Medical Sciences (Nov 2023–Jan 2024)\n\nBulk genomics/transcriptomics analyses supporting CLL/RT projects; delivered reusable notebooks and Quarto reports for follow-up validation.\n\n\n\nMSc Research Intern — University of Turin, Dept. of Medical Sciences (Mar 2022–Oct 2023)\n\nGenomic/transcriptomic characterization projects in hematology and genetics; produced analysis outputs and manuscript-ready figures/methods.\n\n\n\nBachelor’s Internship — University of Palermo, Dept. of Biological, Chemical and Pharmaceutical Sciences (Mar–Jul 2021)\nSupervisor: Prof. Anna Maria Almerico\n- Computational study of ligand–protein interactions using pharmacophore models."
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "CV",
+    "section": "Publications",
+    "text": "Publications\n\nSubmitted / under review\n\nVallone FE, Omezzolli G, Micillo M, Iannello A, Ferrero G, Berrino E, et al.\nCommon genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies. Submitted (first author).\nFascì A, Vallone FE, et al.\nNOTCH1 orchestrates metabolic reprogramming to drive proliferation in chronic lymphocytic leukemia. Submitted.\n\n\n\nPeer-reviewed\n\nMigliorero M, Marsalla D, Vallone FE, et al. Genome editing strategies to generate working models of Polycystic Kidney Disease. Scientific Reports (2025).\nOmezzolli G, Iannello A, Vallone FE, et al. Complementary approaches define the metabolic features that accompany Richter syndrome transformation. Cellular and Molecular Life Sciences (2025).\nNardi F, Del Prete R, Drago R, Di Rita A, Vallone FE, et al. Apolipoprotein E-mediated ferroptosis controls cellular proliferation in chronic lymphocytic leukemia. Leukemia (2024).\nFaini AC, Arruga F, Pinon M, Bracciamà V, Vallone FE, et al. Genomic and Transcriptomic Profile of HNF1A-Mutated Liver Adenomas… Int. J. Mol. Sci. (2024).\nSorbini M, Aidala E, Carradori T, Vallone FE, et al. Donor-derived cell-free DNA evaluation in pediatric heart transplant recipients… Transplant Direct (2024)."
+  },
+  {
+    "objectID": "cv.html#talks-selected-first-authorpresenter",
+    "href": "cv.html#talks-selected-first-authorpresenter",
+    "title": "CV",
+    "section": "Talks (selected; first-author/presenter)",
+    "text": "Talks (selected; first-author/presenter)\n\nEuropean School of Hematology (ESH) — Vienna — Mar 2024 — Oral presentation\nDefining common genomic and transcriptomic profiles in Richter’s syndrome paves the way for drug repurposing strategies.\nNO-CANCER — Novara — May 2024 — Short talk\nDefining common genomic and transcriptomic profiles in Richter’s syndrome paves the way for drug repurposing strategies.\nERIC — Barcelona — Sep 2024 — Poster\nDefining common genomic and transcriptomic profiles in Richter’s syndrome paves the way for drug repurposing strategies."
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "CV",
+    "section": "Teaching",
+    "text": "Teaching\n\nTeaching (selected modules) — University of Turin (2025–present)\nBSc Biotechnology: Medical & Cancer Genetics; Epigenetics · MSc Medical Biotechnology: Biotech Therapies"
+  },
+  {
+    "objectID": "cv.html#selected-training",
+    "href": "cv.html#selected-training",
+    "title": "CV",
+    "section": "Selected training",
+    "text": "Selected training\n\nELIXIR-IIB scRNA-seq Workshop — Sapienza University of Rome — 25–28 Nov 2025\nEMBL-EBI / Wellcome — Intro to multi-omics data integration & visualisation (Hinxton) — Mar 2026 (scheduled)\nUniversity of Melbourne — mixOmics (R) Essentials for Biological Data Integration — Feb–Apr 2026 (scheduled)"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "CV",
+    "section": "Technical skills",
+    "text": "Technical skills\n\nR/Bioconductor: DESeq2/edgeR/limma, fgsea/GSEA, ggplot2/ComplexHeatmap; Quarto/R Markdown\nPipelines/HPC: Bash, SLURM (sbatch/arrays/logging), conda/mamba, renv, Git/GitHub\nRNA-seq: fastp, STAR/Salmon, MultiQC, IGV\nEpigenomics: CUT&Tag (TFs, H3K27ac), ONT methylation\nPython: pandas/numpy/matplotlib; notebooks; small CLIs"
+  },
+  {
+    "objectID": "cv.html#data-code",
+    "href": "cv.html#data-code",
+    "title": "CV",
+    "section": "Data & code",
+    "text": "Data & code\n\nTranscripTools (R): https://github.com/Francesco-E-Vallone/TranscripTools\n\nRNAseq-DB-explorer (Shiny): https://github.com/Francesco-E-Vallone/RNAseq-DB-explorer\n\nscript-archive: https://github.com/Francesco-E-Vallone/script-archive"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "CV",
+    "section": "Languages",
+    "text": "Languages\nItalian (native); English (C1); German (A1); Spanish (A1)"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Francesco Edoardo Vallone\n    PhD Candidate · Computational Cancer Biology (Omics)\n    University of Turin · Functional Genomics Unit\n\n    \n      Links\n      \n        Email\n        GitHub\n        ORCID\n        ResearchGate"
+  },
+  {
+    "objectID": "publications.html#submitted-under-review",
+    "href": "publications.html#submitted-under-review",
+    "title": "Publications",
+    "section": "Submitted / under review",
+    "text": "Submitted / under review\n\nVallone FE, Omezzolli G, Micillo M, Iannello A, Ferrero G, Berrino E, et al.\nCommon genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies. Submitted to Leukemia.\n(Manuscript available on request.)\nFunctional cooperation between the BCR and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia. (Second author) Submitted to Leukemia."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-journal-articles",
+    "href": "publications.html#peer-reviewed-journal-articles",
+    "title": "Publications",
+    "section": "Peer-reviewed journal articles",
+    "text": "Peer-reviewed journal articles\n\nNardi F, Del Prete R, Drago R, Di Rita A, Vallone FE, et al.\nApoliprotein E-mediated ferroptosis controls cellular proliferation in chronic lymphocytic leukemia. Leukemia (2025) 39:122–133. DOI: 10.1038/s41375-024-02442-0.\nOmezzolli G, Iannello A, Vallone FE, et al.\nComplementary approaches define the metabolic features that accompany Richter syndrome transformation. Cellular and Molecular Life Sciences (2025) 82:152. DOI: 10.1007/s00018-025-05670-4.\nMigliorero M, Marsalla D, Vallone FE, et al.\nGenome editing strategies to generate working models of polycystic kidney disease. Scientific Reports (2025) 15:33545. DOI: 10.1038/s41598-025-18343-w.\nFaini AC, Arruga F, Pinon M, Bracciamà V, Vallone FE, et al.\nGenomic and Transcriptomic Profile of HNF1A-Mutated Liver Adenomas Highlights Molecular Signature and Potential Therapeutic Implications. International Journal of Molecular Sciences (2024) 25(19):10483. DOI: 10.3390/ijms251910483.\nSorbini M, Aidala E, Carradori T, Vallone FE, et al.\nDonor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience. Transplant Direct (2024) 10(10):e1689. DOI: 10.1097/TXD.0000000000001689."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Francesco Edoardo Vallone\n    PhD Candidate · Computational Cancer Biology (Omics)\n    University of Turin · Functional Genomics Unit\n\n    \n      Links\n      \n        Email\n        GitHub\n        ORCID\n        ResearchGate"
+  },
+  {
+    "objectID": "software.html#featured",
+    "href": "software.html#featured",
+    "title": "Software",
+    "section": "Featured",
+    "text": "Featured\n\nTranscripTools (R) — helpers for bulk RNA-seq downstream work (DE result handling, exploratory plots, reporting utilities).\nRepo: https://github.com/Francesco-E-Vallone/TranscripTools"
+  },
+  {
+    "objectID": "software.html#apps-templates",
+    "href": "software.html#apps-templates",
+    "title": "Software",
+    "section": "Apps / templates",
+    "text": "Apps / templates\n\nRNAseq-DB-explorer (R / Shiny) — local Shiny app to browse heterogeneous bulk RNA-seq datasets (runs locally; no server).\nRepo: https://github.com/Francesco-E-Vallone/RNAseq-DB-explorer\nRNAseq-alignment-quant — reproducible example pipeline (FASTQ → align/quant → counts), with clear inputs/outputs.\nRepo: https://github.com/Francesco-E-Vallone/RNAseq-alignment-quant"
+  },
+  {
+    "objectID": "software.html#small-utilities",
+    "href": "software.html#small-utilities",
+    "title": "Software",
+    "section": "Small utilities",
+    "text": "Small utilities\n\nscript-archive — reusable snippets and one-off scripts not tied to a single project.\nRepo: https://github.com/Francesco-E-Vallone/script-archive"
+  }
+]

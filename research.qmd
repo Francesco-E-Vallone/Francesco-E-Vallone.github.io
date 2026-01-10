@@ -1,0 +1,85 @@
+---
+title: "Research"
+---
+
+A few research lines I’ve been working on: what the question is, what I did, and what came out of it.
+
+---
+
+## PhD project — BCR stereotypy × NOTCH1 in CLL
+
+### Question
+In CLL, *NOTCH1* is one of the most recurrent mutations, and **BCR stereotypy** defines reproducible biological subsets. Evidence also points to a bidirectional link between BCR signaling and *NOTCH1*.  
+I first map the programs that define stereotyped subsets in *NOTCH1*-wt CLL, then test how *NOTCH1* co-occurrence rewires those programs within each subset, and whether the shifts align with the expected activation/aggressiveness differences.
+
+### Design (what we compare)
+- **Subsets:** #4 (**IGHV4-34**), #1 (**IGHV1-69**), #3 (**IGHV3-21**)
+- **Genotype:** **NOTCH1-mut** vs **NOTCH1-wt**
+- **Goal:** separate **subset-intrinsic** programs from **NOTCH1-dependent** effects (and identify where the interaction creates a distinct state)
+
+### Why these subsets
+Subset #4 (IGHV4-34) is classically linked to a more **indolent/anergic** phenotype, whereas subset #1 (IGHV1-69) and subset #3 (IGHV3-21) are often associated with more **activated/aggressive** programs.  
+The point is to see what’s truly subset-intrinsic and what shifts with genotype and context.
+
+### How do I use the data
+I use multi-omics to answer biological questions, not just to summarize signals. The aim is to propose a mechanistic explanation (programs/regulators/dependencies), state the predictions it implies, and define the experimental readouts that can confirm or falsify it.
+
+### Data layers (in practice)
+- **Bulk RNA-seq** — transcriptional programs and pathway-level signatures (BCR-linked signaling; NFAT/AP-1; metabolic/microenvironment modules)
+- **CUT&Tag** — TFs and histone marks, including enhancer activity readouts (**H3K27ac**) and NFAT-centered circuitry
+- **ONT DNA methylation** — methylation at promoters/regulatory elements integrated with expression and chromatin state
+
+### My contribution
+- **Study design under constraints:** multi-batch work (3 batches, dropouts/uneven libraries); rebuilt contrasts when designs became invalid and kept inference interpretable.
+- **QC + robustness:** explicit QC gates, batch-aware modeling, and sanity checks so conclusions don’t collapse under reasonable re-analyses.
+- **Mechanistic framing:** translate multi-omics output into testable biological claims (not “pathways are enriched”).
+
+**Status:** ongoing PhD work; links when public.
+
+---
+
+## Richter transformation (first author) — shared signatures to actionable vulnerabilities
+
+### Question
+RT is rare, aggressive, and heterogeneous. The question behind this study was:  
+**can integrated genomics + transcriptomics identify a reproducible RT "blueprint" across cohorts; and can that blueprint drive a rational drug-repurposing strategy that holds up in RT models?**
+
+### Study setup (hard data)
+- **20 RT FFPE lymph-node biopsies** profiled by targeted DNA sequencing (**TSO500**)
+- **RNA-seq for 14/20** (FFPE RNA quality constrained feasibility)
+- Integration with **independent published RT cohorts** to isolate signals stable beyond a single dataset
+- Drug-repurposing step built from the multi-omics output: curated **66-drug** library (pathway/target-driven) and tested in RT models
+
+### My contribution
+- Co-defined the **biological question and study logic** with supervisors
+- Owned the **genomics/transcriptomics integration**, cross-cohort comparisons, and signature → vulnerability prioritization logic
+- Led interpretation and manuscript drafting with supervisor feedback
+
+### Experimental linkage
+Not an in-silico-only story: prioritization was followed by **in vitro testing** in RT models (RT-PDX-derived models and U-RT1 cell line).
+
+### Output
+- **Manuscript (submitted, _Leukemia_)** — *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.*
+- **Selected oral presentation** — European School of Hematology (ESH), Vienna — **Mar 2024**
+
+---
+
+## Selected contribution (second author) — BCR–NOTCH1 and metabolic reprogramming in CLL
+
+Outside my PhD line, I contributed heavily to a manuscript on **metabolic reprogramming** in CLL in the context of **BCR–NOTCH1 cooperation**, focusing on analysis framework and design/QC decisions.
+
+- **Output:** *Functional cooperation between the BCR and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* (submitted/under review; second author)
+
+---
+
+## Selected methods-heavy contribution (outside my main disease area)
+
+**Donor-derived cfDNA in pediatric heart transplant monitoring (2024).**  
+I contributed the statistical/ML component, including the **random forest** analysis used for predictive modeling and feature prioritization.
+
+Reference: Sorbini M, Aidala E, Carradori T, **Vallone FE**, *et al.* *Donor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience.* (2024).
+
+---
+
+## Other ongoing collaborations
+- Ongoing bulk RNA-seq analyses collaboration with CLL groups at **IRCCS San Raffaele Hospital (HSR, Milan)**, including **Scielzo** and **Ghia** labs.

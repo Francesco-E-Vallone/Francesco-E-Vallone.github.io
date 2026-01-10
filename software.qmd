@@ -1,0 +1,24 @@
+---
+title: "Software"
+---
+
+A small, curated list of tools and templates I actually use and maintain.  
+Most research code stays private until publication; what’s public here is meant to be runnable and representative.
+
+## Featured
+
+- **TranscripTools (R)** — helpers for bulk RNA-seq downstream work (DE result handling, exploratory plots, reporting utilities).  
+  Repo: <https://github.com/Francesco-E-Vallone/TranscripTools>
+
+## Apps / templates
+
+- **RNAseq-DB-explorer (R / Shiny)** — local Shiny app to browse heterogeneous bulk RNA-seq datasets (runs locally; no server).  
+  Repo: <https://github.com/Francesco-E-Vallone/RNAseq-DB-explorer>
+
+- **RNAseq-alignment-quant** — reproducible example pipeline (FASTQ → align/quant → counts), with clear inputs/outputs.  
+  Repo: <https://github.com/Francesco-E-Vallone/RNAseq-alignment-quant>
+
+## Small utilities
+
+- **script-archive** — reusable snippets and one-off scripts not tied to a single project.  
+  Repo: <https://github.com/Francesco-E-Vallone/script-archive>
