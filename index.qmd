@@ -15,7 +15,7 @@ My main track is **chronic lymphocytic leukemia (CLL):** I study how B-cell rece
 - **Active collaborations:** ongoing bulk RNA-seq analyses with CLL groups at IRCCS San Raffaele Hospital (HSR, Milan).
 
 ### Selected highlights
-- **First-author manuscript (submitted):** *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies. (Leukemia)*
+- **First-author manuscript (accepted, Leukemia):** *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.*
 - **Conference oral (selected):** European School of Hematology (ESH), Vienna — **March 2024** (Genomic and transcriptomic signatures in Richter transformation / drug repurposing).
 - **Teaching:** BSc Biotechnology (Medical & Cancer Genetics; Epigenetics);  MSc Medical Biotechnology (Biotech Therapies)
 

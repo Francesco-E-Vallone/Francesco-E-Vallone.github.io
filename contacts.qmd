@@ -2,7 +2,7 @@
 title: "Contacts"
 ---
 
-- **Email:** francesco.edo.vallone@gmail.com  
+- **Email:** francesco.edo.vallone@gmail.com
 - **GitHub:** <https://github.com/Francesco-E-Vallone>  
 - **ORCID:** <https://orcid.org/0009-0006-0824-1038>  
 - **ResearchGate:** <https://www.researchgate.net/profile/Francesco-Vallone-2>

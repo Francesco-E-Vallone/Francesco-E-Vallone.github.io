@@ -1,5 +1,4 @@
 # FRANCESCO EDOARDO VALLONE
-*PhD candidate (Computational Biology) — CLL & Richter transformation • Multi-omics (bulk RNA-seq, CUT&Tag, ONT methylation) • R/Bioconductor • HPC (SLURM/OCCAM) • EGA/Crypt4GH*
 
 **Email:** [francesco.edo.vallone@gmail.com](mailto:francesco.edo.vallone@gmail.com) ·
 **GitHub:** [Francesco-E-Vallone](https://github.com/Francesco-E-Vallone) ·
@@ -46,15 +45,10 @@ Supervisor: Prof. Anna Maria Almerico
 ---
 
 ## Publications
-
-### Submitted / under review
 - **Vallone FE**, Omezzolli G, Micillo M, Iannello A, Ferrero G, Berrino E, *et al.*  
-  *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Submitted** (first author).
-
-- Fascì A, **Vallone FE**, *et al.*  
-  *NOTCH1 orchestrates metabolic reprogramming to drive proliferation in chronic lymphocytic leukemia.* **Submitted**.
-
-### Peer-reviewed
+  *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Leukemia (accepted)**.
+- Fascì A, **Vallone FE**, Nabelsi N, Viry ", *et al.* 
+  *Functional cooperation between the BCR and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* **Leukemia (2026)**. 
 - Migliorero M, Marsalla D, **Vallone FE**, *et al.* *Genome editing strategies to generate working models of Polycystic Kidney Disease.* **Scientific Reports** (2025).
 - Omezzolli G, Iannello A, **Vallone FE**, *et al.* *Complementary approaches define the metabolic features that accompany Richter syndrome transformation.* **Cellular and Molecular Life Sciences** (2025).
 - Nardi F, Del Prete R, Drago R, Di Rita A, **Vallone FE**, *et al.* *Apolipoprotein E-mediated ferroptosis controls cellular proliferation in chronic lymphocytic leukemia.* **Leukemia** (2024).
@@ -81,8 +75,8 @@ Supervisor: Prof. Anna Maria Almerico
 
 ## Selected training
 - **ELIXIR-IIB scRNA-seq Workshop** — Sapienza University of Rome — **25–28 Nov 2025**
-- **EMBL-EBI / Wellcome** — Intro to multi-omics data integration & visualisation (Hinxton) — **Mar 2026 (scheduled)**
-- **University of Melbourne** — mixOmics (R) Essentials for Biological Data Integration — **Feb–Apr 2026 (scheduled)**
+- **EMBL-EBI / Wellcome** — Intro to multi-omics data integration & visualisation (Hinxton) — **Mar 2026**
+- **University of Melbourne** — mixOmics (R) Essentials for Biological Data Integration — **Feb–Apr 2026**
 
 ---
 

@@ -2,15 +2,13 @@
 title: "Publications"
 ---
 
-## Submitted / under review
-- **Vallone FE**, Omezzolli G, Micillo M, Iannello A, Ferrero G, Berrino E, *et al.*  
-  *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Submitted to Leukemia**.  
-  *(Manuscript available on request.)*
-
-- *Functional cooperation between the BCR and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* (Second author) **Submitted to Leukemia**.  
-
-
 ## Peer-reviewed journal articles
+- **Vallone FE**, Omezzolli G, Micillo M, Iannello A, Ferrero G, Berrino E, *et al.*  
+  *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Leukemia (accepted)**.
+
+- Fascì A, Vallone FE, Nabelsi N, Viry E, *et al.*
+  *Functional cooperation between the B-cell receptor and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* **Leukemia** (2026). DOI: 10.1038/s41375-026-02912-7. PMID: 41872504. 
+
 - Nardi F, Del Prete R, Drago R, Di Rita A, **Vallone FE**, *et al.*  
   *Apoliprotein E-mediated ferroptosis controls cellular proliferation in chronic lymphocytic leukemia.* **Leukemia** (2025) 39:122–133. DOI: 10.1038/s41375-024-02442-0.
 
