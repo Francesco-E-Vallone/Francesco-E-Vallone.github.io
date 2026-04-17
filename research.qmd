@@ -2,7 +2,7 @@
 title: "Research"
 ---
 
-Selected projects: the question, the data, and what I drove.
+Selected work: the question, the data, and what I drove.
 
 ---
 
@@ -10,81 +10,78 @@ Selected projects: the question, the data, and what I drove.
 
 ### Question
 In CLL, *NOTCH1* is one of the most recurrent mutations, and **BCR stereotypy** defines reproducible biological subsets. Evidence also supports a bidirectional link between BCR signaling and *NOTCH1*.  
-I map subset-defining programs in *NOTCH1*-wt CLL, then test how *NOTCH1* co-occurrence rewires them within each subset — and whether those shifts track with subset-specific phenotypes.
+I map the programs that define stereotyped subsets in *NOTCH1*-wt CLL, then test how *NOTCH1* co-occurrence rewires those programs within each subset.
 
 ### Design (what we compare)
 - **Subsets:** #4 (**IGHV4-34**), #1 (**IGHV1-69**), #3 (**IGHV3-21**)
-- **Genotype:** ***NOTCH1*-mut** vs ***NOTCH1*-wt**
+- **Genotype:** **NOTCH1-mut** vs **NOTCH1-wt**
 - **Goal:** separate **subset-intrinsic** programs from **NOTCH1-dependent** effects (and identify where the interaction creates a distinct state)
 
 ### Why these subsets
 Subset #4 (IGHV4-34) is classically linked to a more **indolent/anergic** phenotype, whereas subset #1 (IGHV1-69) and subset #3 (IGHV3-21) are often associated with more **activated/aggressive** programs.  
-I quantify what’s subset-intrinsic vs what shifts with genotype and context.
-
-### How I use the data
-I use multi-omics to answer biological questions, not just to summarize signals. The aim is to propose a mechanistic explanation (programs/regulators/dependencies), state the predictions it implies, and define the readouts that can confirm or falsify it.
+The point is to quantify what is subset-intrinsic and what shifts with genotype/context.
 
 ### Data layers (in practice)
-- **Bulk RNA-seq** — program-level changes and signed effects (subset vs *NOTCH1*).
-- **CUT&Tag** — regulatory context (TFs/marks; enhancer activity such as **H3K27ac**).
-- **ONT DNA methylation** — promoter/regulatory-element methylation integrated with expression and chromatin state.
+- **Bulk RNA-seq** — transcriptional programs and pathway-level signatures (BCR-linked signaling; NFAT/AP-1; metabolic/microenvironment modules)
+- **CUT&Tag** — TFs and histone marks, including enhancer activity readouts (**H3K27ac**) and NFAT-centered circuitry
+- **ONT DNA methylation** — methylation at promoters/regulatory elements integrated with expression and chromatin state
 
 ### My contribution
-- **Study design under constraints:** multi-batch work (3 batches, dropouts/uneven libraries); rebuilt contrasts when designs became invalid and kept inference interpretable.
-- **QC + robustness:** QC gates, batch-aware modeling, and sanity checks so conclusions don’t collapse under reasonable re-analyses.
-- **Mechanistic framing:** turn multi-omics output into specific, falsifiable biological claims and concrete readouts.
+- **Design under constraints:** 3 batches with dropouts/uneven libraries; rebuilt contrasts when parts of the original design became invalid.
+- **QC + batch-aware inference:** enforced QC gates and used batch-aware models so PCA/DE reflect biology rather than batch.
+- **Mechanistic framing:** translated multi-omics output into concrete, testable claims and readouts.
 
-**Status:** ongoing PhD work; links when public.
+**Status:** ongoing PhD work.
 
 ---
 
 ## Richter transformation (first-author paper) — shared signatures to actionable vulnerabilities
 
 ### Question
-Can integrated genomics + transcriptomics define reproducible RT signatures across cohorts, and can those signatures be used to prioritize vulnerabilities that hold up in RT models?
+Can integrated genomics + transcriptomics define reproducible RT signatures across cohorts, and can those signatures drive vulnerability prioritization that holds up in RT models?
 
 ### Study setup (hard data)
 - **20 RT FFPE lymph-node biopsies** profiled by targeted DNA sequencing (**TSO500**)
 - **RNA-seq for 14/20** (FFPE RNA quality constrained feasibility)
 - Integration with **independent published RT cohorts** to isolate signals stable beyond a single dataset
-- Drug-prioritization built from the multi-omics output: curated **66-drug** library (pathway/target-driven) and tested in RT models
+- Drug-repurposing step built from the multi-omics output: curated **66-drug** library (pathway/target-driven) and tested in RT models
 
 ### My contribution
-- Co-defined the **biological question and study logic** with supervisors
-- Owned the **genomics/transcriptomics integration**, cross-cohort comparisons, and signature-vulnerability prioritization logic
+- Co-defined the biological question and study logic with supervisors
+- Owned the genomics/transcriptomics integration, cross-cohort comparisons, and signature → vulnerability prioritization logic
 - Led interpretation and manuscript drafting with supervisor feedback
 
 ### Experimental linkage
-Not an in-silico-only story: prioritization was followed by **in vitro testing** in RT models (RT-PDX-derived models and U-RT1 cell line).
+Prioritization was followed by **in vitro testing** in RT models (RT-PDX-derived models and U-RT1 cell line).
 
 ### Output
-- **Paper (accepted, _Leukemia_ 2026)** — *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.*
+- **Vallone FE**, Omezzolli G, Micillo M, *et al.* *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Leukemia (2026)**. <https://doi.org/10.1038/s41375-026-02964-9>
 - **Selected oral presentation** — European School of Hematology (ESH), Vienna — **Mar 2024**
 
 ---
 
 ## Selected contribution (second author) — BCR–*NOTCH1* cooperation and metabolic reprogramming in CLL
 
-I was second author on a study on how **BCR–*NOTCH1*** cooperation shapes **metabolic reprogramming** in CLL.
+Second author on a study on how **BCR–*NOTCH1*** cooperation shapes **metabolic reprogramming** in CLL.
 
-**My contribution**
-- **Analysis framework + design decisions:** structured comparisons, handled confounders, and kept inference aligned with the biological question.
+### My contribution
+- **Analysis framework + design decisions:** structured comparisons and handled confounders.
 - **QC + robustness:** QC gates and sensitivity checks to rule out technical artifacts.
 - **Interpretation + figures:** supported biological interpretation and key figures.
 
-**Output**
-- Fascì A, **Vallone FE**, Nabelsi N, Viry E, *et al.* *Functional cooperation between the B-cell receptor and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* **Leukemia** (2026). PMID: 41872504. <https://pubmed.ncbi.nlm.nih.gov/41872504/>
+### Output
+- Fascì A, **Vallone FE**, Nabelsi N, Viry E, *et al.* *Functional cooperation between the B-cell receptor and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* **Leukemia (2026)**. <https://doi.org/10.1038/s41375-026-02912-7> (PMID: 41872504)
 
 ---
 
-## Selected contribution outside my main disease area
+## Selected methods-heavy contribution (outside my main disease area)
 
 **Donor-derived cfDNA in pediatric heart transplant monitoring (2024).**  
 I contributed the statistical/ML component, including the **random forest** analysis used for predictive modeling and feature prioritization.
 
-Reference: Sorbini M, Aidala E, Carradori T, **Vallone FE**, *et al.* *Donor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience.* **Transplant Direct** (2024). DOI: 10.1097/TXD.0000000000001689.
+Reference: Sorbini M, Aidala E, Carradori T, **Vallone FE**, *et al.* *Donor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience.* **Transplant Direct (2024)**. DOI: **10.1097/TXD.0000000000001689**.
 
 ---
 
 ## Other ongoing collaborations
-- Ongoing bulk RNA-seq analysis collaboration with CLL groups at **IRCCS San Raffaele Hospital (HSR, Milan)**, including **Scielzo** and **Ghia** labs.
+- Ongoing bulk RNA-seq/design collaboration with CLL groups at **IRCCS San Raffaele Hospital (HSR, Milan)**, including **Scielzo** and **Ghia** labs.

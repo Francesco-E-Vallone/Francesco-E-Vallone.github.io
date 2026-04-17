@@ -7,15 +7,17 @@ page-layout: full
 
 PhD candidate at the *University of Turin* (Functional Genomics Unit, Italy) in computational cancer biology. 
 
-My main track is **chronic lymphocytic leukemia (CLL):** I study how B-cell receptor (BCR) stereotyped subsets and *NOTCH1* mutation status shape transcriptional and regulatory programs using multi-omics. In parallel, I work on **Richter transformation (RT)** - the aggressive lymphoma that can arise from CLL - as a separate line focused on cross-cohort signatures and actionable vulnerabilities.
+PhD candidate at the *University of Turin* (Functional Genomics Unit, Italy) in computational cancer biology.
+
+My main track is **chronic lymphocytic leukemia (CLL)**: I study how **BCR stereotyped subsets** and *NOTCH1* mutation status shape transcriptional and regulatory programs using multi-omics. In parallel, I work on **Richter transformation (RT)** — the aggressive lymphoma that can arise from CLL — as a separate cross-cohort, translational line.
 
 ### What I’m working on now
-- **Main PhD (CLL): BCR stereotypy × NOTCH1** — multi-omics profiling of genotype-linked transcriptional/regulatory programs across IGHV4-34, IGHV1-69, and IGHV3-21 BCR stereotypes.
+- **Main PhD (CLL): BCR stereotypy × *NOTCH1*** — multi-omics profiling of genotype-linked transcriptional/regulatory programs across **IGHV4-34**, **IGHV1-69**, and **IGHV3-21** BCR stereotypes.
 - **Richter transformation (RT):** cross-cohort genomics + transcriptomics to prioritize actionable vulnerabilities.
-- **Active collaborations:** ongoing bulk RNA-seq analyses with CLL groups at IRCCS San Raffaele Hospital (HSR, Milan).
+- **Active collaborations:** ongoing bulk RNA-seq/design work with CLL groups at **IRCCS San Raffaele Hospital (HSR, Milan)**.
 
 ### Selected highlights
-- **First-author manuscript (accepted, Leukemia):** *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.*
+- **First-author paper:** *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Leukemia** (2026). DOI: 10.1038/s41375-026-02964-9.
 - **Conference oral (selected):** European School of Hematology (ESH), Vienna — **March 2024** (Genomic and transcriptomic signatures in Richter transformation / drug repurposing).
 - **Teaching:** BSc Biotechnology (Medical & Cancer Genetics; Epigenetics);  MSc Medical Biotechnology (Biotech Therapies)
 

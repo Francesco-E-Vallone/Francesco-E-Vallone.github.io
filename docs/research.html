@@ -173,48 +173,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Selected projects: the question, the data, and what I drove.</p>
+<p>Selected work: the question, the data, and what I drove.</p>
 <hr>
 <section id="phd-project-bcr-stereotypy-notch1-in-cll" class="level2">
 <h2 class="anchored" data-anchor-id="phd-project-bcr-stereotypy-notch1-in-cll">PhD project — BCR stereotypy × <em>NOTCH1</em> in CLL</h2>
 <section id="question" class="level3">
 <h3 class="anchored" data-anchor-id="question">Question</h3>
 <p>In CLL, <em>NOTCH1</em> is one of the most recurrent mutations, and <strong>BCR stereotypy</strong> defines reproducible biological subsets. Evidence also supports a bidirectional link between BCR signaling and <em>NOTCH1</em>.<br>
-I map subset-defining programs in <em>NOTCH1</em>-wt CLL, then test how <em>NOTCH1</em> co-occurrence rewires them within each subset — and whether those shifts track with subset-specific phenotypes.</p>
+I map the programs that define stereotyped subsets in <em>NOTCH1</em>-wt CLL, then test how <em>NOTCH1</em> co-occurrence rewires those programs within each subset.</p>
 </section>
 <section id="design-what-we-compare" class="level3">
 <h3 class="anchored" data-anchor-id="design-what-we-compare">Design (what we compare)</h3>
 <ul>
 <li><strong>Subsets:</strong> #4 (<strong>IGHV4-34</strong>), #1 (<strong>IGHV1-69</strong>), #3 (<strong>IGHV3-21</strong>)</li>
-<li><strong>Genotype:</strong> <strong><em>NOTCH1</em>-mut</strong> vs <strong><em>NOTCH1</em>-wt</strong></li>
+<li><strong>Genotype:</strong> <strong>NOTCH1-mut</strong> vs <strong>NOTCH1-wt</strong></li>
 <li><strong>Goal:</strong> separate <strong>subset-intrinsic</strong> programs from <strong>NOTCH1-dependent</strong> effects (and identify where the interaction creates a distinct state)</li>
 </ul>
 </section>
 <section id="why-these-subsets" class="level3">
 <h3 class="anchored" data-anchor-id="why-these-subsets">Why these subsets</h3>
 <p>Subset #4 (IGHV4-34) is classically linked to a more <strong>indolent/anergic</strong> phenotype, whereas subset #1 (IGHV1-69) and subset #3 (IGHV3-21) are often associated with more <strong>activated/aggressive</strong> programs.<br>
-I quantify what’s subset-intrinsic vs what shifts with genotype and context.</p>
-</section>
-<section id="how-i-use-the-data" class="level3">
-<h3 class="anchored" data-anchor-id="how-i-use-the-data">How I use the data</h3>
-<p>I use multi-omics to answer biological questions, not just to summarize signals. The aim is to propose a mechanistic explanation (programs/regulators/dependencies), state the predictions it implies, and define the readouts that can confirm or falsify it.</p>
+The point is to quantify what is subset-intrinsic and what shifts with genotype/context.</p>
 </section>
 <section id="data-layers-in-practice" class="level3">
 <h3 class="anchored" data-anchor-id="data-layers-in-practice">Data layers (in practice)</h3>
 <ul>
-<li><strong>Bulk RNA-seq</strong> — program-level changes and signed effects (subset vs <em>NOTCH1</em>).</li>
-<li><strong>CUT&amp;Tag</strong> — regulatory context (TFs/marks; enhancer activity such as <strong>H3K27ac</strong>).</li>
-<li><strong>ONT DNA methylation</strong> — promoter/regulatory-element methylation integrated with expression and chromatin state.</li>
+<li><strong>Bulk RNA-seq</strong> — transcriptional programs and pathway-level signatures (BCR-linked signaling; NFAT/AP-1; metabolic/microenvironment modules)</li>
+<li><strong>CUT&amp;Tag</strong> — TFs and histone marks, including enhancer activity readouts (<strong>H3K27ac</strong>) and NFAT-centered circuitry</li>
+<li><strong>ONT DNA methylation</strong> — methylation at promoters/regulatory elements integrated with expression and chromatin state</li>
 </ul>
 </section>
 <section id="my-contribution" class="level3">
 <h3 class="anchored" data-anchor-id="my-contribution">My contribution</h3>
 <ul>
-<li><strong>Study design under constraints:</strong> multi-batch work (3 batches, dropouts/uneven libraries); rebuilt contrasts when designs became invalid and kept inference interpretable.</li>
-<li><strong>QC + robustness:</strong> QC gates, batch-aware modeling, and sanity checks so conclusions don’t collapse under reasonable re-analyses.</li>
-<li><strong>Mechanistic framing:</strong> turn multi-omics output into specific, falsifiable biological claims and concrete readouts.</li>
+<li><strong>Design under constraints:</strong> 3 batches with dropouts/uneven libraries; rebuilt contrasts when parts of the original design became invalid.</li>
+<li><strong>QC + batch-aware inference:</strong> enforced QC gates and used batch-aware models so PCA/DE reflect biology rather than batch.</li>
+<li><strong>Mechanistic framing:</strong> translated multi-omics output into concrete, testable claims and readouts.</li>
 </ul>
-<p><strong>Status:</strong> ongoing PhD work; links when public.</p>
+<p><strong>Status:</strong> ongoing PhD work.</p>
 <hr>
 </section>
 </section>
@@ -222,7 +218,7 @@ I quantify what’s subset-intrinsic vs what shifts with genotype and context.</
 <h2 class="anchored" data-anchor-id="richter-transformation-first-author-paper-shared-signatures-to-actionable-vulnerabilities">Richter transformation (first-author paper) — shared signatures to actionable vulnerabilities</h2>
 <section id="question-1" class="level3">
 <h3 class="anchored" data-anchor-id="question-1">Question</h3>
-<p>Can integrated genomics + transcriptomics define reproducible RT signatures across cohorts, and can those signatures be used to prioritize vulnerabilities that hold up in RT models?</p>
+<p>Can integrated genomics + transcriptomics define reproducible RT signatures across cohorts, and can those signatures drive vulnerability prioritization that holds up in RT models?</p>
 </section>
 <section id="study-setup-hard-data" class="level3">
 <h3 class="anchored" data-anchor-id="study-setup-hard-data">Study setup (hard data)</h3>
@@ -230,25 +226,25 @@ I quantify what’s subset-intrinsic vs what shifts with genotype and context.</
 <li><strong>20 RT FFPE lymph-node biopsies</strong> profiled by targeted DNA sequencing (<strong>TSO500</strong>)</li>
 <li><strong>RNA-seq for 14/20</strong> (FFPE RNA quality constrained feasibility)</li>
 <li>Integration with <strong>independent published RT cohorts</strong> to isolate signals stable beyond a single dataset</li>
-<li>Drug-prioritization built from the multi-omics output: curated <strong>66-drug</strong> library (pathway/target-driven) and tested in RT models</li>
+<li>Drug-repurposing step built from the multi-omics output: curated <strong>66-drug</strong> library (pathway/target-driven) and tested in RT models</li>
 </ul>
 </section>
 <section id="my-contribution-1" class="level3">
 <h3 class="anchored" data-anchor-id="my-contribution-1">My contribution</h3>
 <ul>
-<li>Co-defined the <strong>biological question and study logic</strong> with supervisors</li>
-<li>Owned the <strong>genomics/transcriptomics integration</strong>, cross-cohort comparisons, and signature-vulnerability prioritization logic</li>
+<li>Co-defined the biological question and study logic with supervisors</li>
+<li>Owned the genomics/transcriptomics integration, cross-cohort comparisons, and signature → vulnerability prioritization logic</li>
 <li>Led interpretation and manuscript drafting with supervisor feedback</li>
 </ul>
 </section>
 <section id="experimental-linkage" class="level3">
 <h3 class="anchored" data-anchor-id="experimental-linkage">Experimental linkage</h3>
-<p>Not an in-silico-only story: prioritization was followed by <strong>in vitro testing</strong> in RT models (RT-PDX-derived models and U-RT1 cell line).</p>
+<p>Prioritization was followed by <strong>in vitro testing</strong> in RT models (RT-PDX-derived models and U-RT1 cell line).</p>
 </section>
 <section id="output" class="level3">
 <h3 class="anchored" data-anchor-id="output">Output</h3>
 <ul>
-<li><strong>Paper (accepted, <em>Leukemia</em> 2026)</strong> — <em>Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.</em></li>
+<li><strong>Vallone FE</strong>, Omezzolli G, Micillo M, <em>et al.</em> <em>Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.</em> <strong>Leukemia (2026)</strong>. <a href="https://doi.org/10.1038/s41375-026-02964-9" class="uri">https://doi.org/10.1038/s41375-026-02964-9</a></li>
 <li><strong>Selected oral presentation</strong> — European School of Hematology (ESH), Vienna — <strong>Mar 2024</strong></li>
 </ul>
 <hr>
@@ -256,22 +252,34 @@ I quantify what’s subset-intrinsic vs what shifts with genotype and context.</
 </section>
 <section id="selected-contribution-second-author-bcrnotch1-cooperation-and-metabolic-reprogramming-in-cll" class="level2">
 <h2 class="anchored" data-anchor-id="selected-contribution-second-author-bcrnotch1-cooperation-and-metabolic-reprogramming-in-cll">Selected contribution (second author) — BCR–<em>NOTCH1</em> cooperation and metabolic reprogramming in CLL</h2>
-<p>I was second author on a study on how <strong>BCR–<em>NOTCH1</em></strong> cooperation shapes <strong>metabolic reprogramming</strong> in CLL.</p>
-<p><strong>My contribution</strong> - <strong>Analysis framework + design decisions:</strong> structured comparisons, handled confounders, and kept inference aligned with the biological question. - <strong>QC + robustness:</strong> QC gates and sensitivity checks to rule out technical artifacts. - <strong>Interpretation + figures:</strong> supported biological interpretation and key figures.</p>
-<p><strong>Output</strong> - Fascì A, <strong>Vallone FE</strong>, Nabelsi N, Viry E, <em>et al.</em> <em>Functional cooperation between the B-cell receptor and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.</em> <strong>Leukemia</strong> (2026). PMID: 41872504. <a href="https://pubmed.ncbi.nlm.nih.gov/41872504/" class="uri">https://pubmed.ncbi.nlm.nih.gov/41872504/</a></p>
+<p>Second author on a study on how <strong>BCR–<em>NOTCH1</em></strong> cooperation shapes <strong>metabolic reprogramming</strong> in CLL.</p>
+<section id="my-contribution-2" class="level3">
+<h3 class="anchored" data-anchor-id="my-contribution-2">My contribution</h3>
+<ul>
+<li><strong>Analysis framework + design decisions:</strong> structured comparisons and handled confounders.</li>
+<li><strong>QC + robustness:</strong> QC gates and sensitivity checks to rule out technical artifacts.</li>
+<li><strong>Interpretation + figures:</strong> supported biological interpretation and key figures.</li>
+</ul>
+</section>
+<section id="output-1" class="level3">
+<h3 class="anchored" data-anchor-id="output-1">Output</h3>
+<ul>
+<li>Fascì A, <strong>Vallone FE</strong>, Nabelsi N, Viry E, <em>et al.</em> <em>Functional cooperation between the B-cell receptor and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.</em> <strong>Leukemia (2026)</strong>. <a href="https://doi.org/10.1038/s41375-026-02912-7" class="uri">https://doi.org/10.1038/s41375-026-02912-7</a> (PMID: 41872504)</li>
+</ul>
 <hr>
 </section>
-<section id="selected-contribution-outside-my-main-disease-area" class="level2">
-<h2 class="anchored" data-anchor-id="selected-contribution-outside-my-main-disease-area">Selected contribution outside my main disease area</h2>
+</section>
+<section id="selected-methods-heavy-contribution-outside-my-main-disease-area" class="level2">
+<h2 class="anchored" data-anchor-id="selected-methods-heavy-contribution-outside-my-main-disease-area">Selected methods-heavy contribution (outside my main disease area)</h2>
 <p><strong>Donor-derived cfDNA in pediatric heart transplant monitoring (2024).</strong><br>
 I contributed the statistical/ML component, including the <strong>random forest</strong> analysis used for predictive modeling and feature prioritization.</p>
-<p>Reference: Sorbini M, Aidala E, Carradori T, <strong>Vallone FE</strong>, <em>et al.</em> <em>Donor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience.</em> <strong>Transplant Direct</strong> (2024). DOI: 10.1097/TXD.0000000000001689.</p>
+<p>Reference: Sorbini M, Aidala E, Carradori T, <strong>Vallone FE</strong>, <em>et al.</em> <em>Donor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience.</em> <strong>Transplant Direct (2024)</strong>. DOI: <strong>10.1097/TXD.0000000000001689</strong>.</p>
 <hr>
 </section>
 <section id="other-ongoing-collaborations" class="level2">
 <h2 class="anchored" data-anchor-id="other-ongoing-collaborations">Other ongoing collaborations</h2>
 <ul>
-<li>Ongoing bulk RNA-seq analysis collaboration with CLL groups at <strong>IRCCS San Raffaele Hospital (HSR, Milan)</strong>, including <strong>Scielzo</strong> and <strong>Ghia</strong> labs.</li>
+<li>Ongoing bulk RNA-seq/design collaboration with CLL groups at <strong>IRCCS San Raffaele Hospital (HSR, Milan)</strong>, including <strong>Scielzo</strong> and <strong>Ghia</strong> labs.</li>
 </ul>
 
 
