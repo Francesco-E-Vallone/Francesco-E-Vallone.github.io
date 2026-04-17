@@ -59,17 +59,23 @@ My research focuses on **chronic lymphocytic leukemia (CLL)** and **Richter tran
 - **Vallone FE**, Omezzolli G, Micillo M, Iannello A, Ferrero G, Berrino E, *et al.*  
   *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Leukemia** (2026). DOI: 10.1038/s41375-026-02964-9.
 
-- Fascì A, **Vallone FE**, Nabelsi N, Viry ", *et al.**Functional cooperation between the BCR and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* **Leukemia (2026)**.
+- Fascì A, Vallone FE, Nabelsi N, Viry E, *et al.*
+  *Functional cooperation between the B-cell receptor and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* **Leukemia** (2026). DOI: 10.1038/s41375-026-02912-7. PMID: 41872504. 
 
-- Migliorero M, Marsalla D, **Vallone FE**, *et al.* *Genome editing strategies to generate working models of Polycystic Kidney Disease.* **Scientific Reports** (2025).
+- Nardi F, Del Prete R, Drago R, Di Rita A, **Vallone FE**, *et al.*  
+  *Apoliprotein E-mediated ferroptosis controls cellular proliferation in chronic lymphocytic leukemia.* **Leukemia** (2025) 39:122–133. DOI: 10.1038/s41375-024-02442-0.
 
-- Omezzolli G, Iannello A, **Vallone FE**, *et al.* *Complementary approaches define the metabolic features that accompany Richter syndrome transformation.* **Cellular and Molecular Life Sciences** (2025).
+- Omezzolli G, Iannello A, **Vallone FE**, *et al.*  
+  *Complementary approaches define the metabolic features that accompany Richter syndrome transformation.* **Cellular and Molecular Life Sciences** (2025) 82:152. DOI: 10.1007/s00018-025-05670-4.
 
-- Nardi F, Del Prete R, Drago R, Di Rita A, **Vallone FE**, *et al.* *Apolipoprotein E-mediated ferroptosis controls cellular proliferation in chronic lymphocytic leukemia.* **Leukemia** (2024).
+- Migliorero M, Marsalla D, **Vallone FE**, *et al.*  
+  *Genome editing strategies to generate working models of polycystic kidney disease.* **Scientific Reports** (2025) 15:33545. DOI: 10.1038/s41598-025-18343-w.
 
-- Faini AC, Arruga F, Pinon M, Bracciamà V, **Vallone FE**, *et al.* *Genomic and Transcriptomic Profile of HNF1A-Mutated Liver Adenomas…* **Int. J. Mol. Sci.** (2024).
+- Faini AC, Arruga F, Pinon M, Bracciamà V, **Vallone FE**, *et al.*  
+  *Genomic and Transcriptomic Profile of HNF1A-Mutated Liver Adenomas Highlights Molecular Signature and Potential Therapeutic Implications.* **International Journal of Molecular Sciences** (2024) 25(19):10483. DOI: 10.3390/ijms251910483.
 
-- Sorbini M, Aidala E, Carradori T, **Vallone FE**, *et al.* *Donor-derived cell-free DNA evaluation in pediatric heart transplant recipients…* **Transplant Direct** (2024).
+- Sorbini M, Aidala E, Carradori T, **Vallone FE**, *et al.*  
+  *Donor-derived Cell-free DNA Evaluation in Pediatric Heart Transplant Recipients: A Single-center 12-mo Experience.* **Transplant Direct** (2024) 10(10):e1689. DOI: 10.1097/TXD.0000000000001689.
 
 ---
 
