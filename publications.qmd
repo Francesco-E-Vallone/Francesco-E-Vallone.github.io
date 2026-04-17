@@ -4,7 +4,7 @@ title: "Publications"
 
 ## Peer-reviewed journal articles
 - **Vallone FE**, Omezzolli G, Micillo M, Iannello A, Ferrero G, Berrino E, *et al.*  
-  *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Leukemia (accepted)**.
+  *Common genomic and transcriptomic signatures in Richter transformation highlight druggable vulnerabilities and guide drug repurposing strategies.* **Leukemia** (2026). DOI: 10.1038/s41375-026-02964-9.
 
 - Fascì A, Vallone FE, Nabelsi N, Viry E, *et al.*
   *Functional cooperation between the B-cell receptor and NOTCH1 in regulating metabolic reprogramming in chronic lymphocytic leukemia.* **Leukemia** (2026). DOI: 10.1038/s41375-026-02912-7. PMID: 41872504. 

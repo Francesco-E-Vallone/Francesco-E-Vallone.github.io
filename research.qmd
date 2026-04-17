@@ -47,9 +47,10 @@ Can integrated genomics + transcriptomics define reproducible RT signatures acro
 - Drug-repurposing step built from the multi-omics output: curated **66-drug** library (pathway/target-driven) and tested in RT models
 
 ### My contribution
-- Co-defined the biological question and study logic with supervisors
-- Owned the genomics/transcriptomics integration, cross-cohort comparisons, and signature → vulnerability prioritization logic
-- Led interpretation and manuscript drafting with supervisor feedback
+- Defined the analysis strategy and biological question with supervisors.
+- Built and ran the core genomics + transcriptomics integration, including cross-cohort comparisons.
+- Implemented the signature-to-vulnerability prioritization pipeline (from multi-omics signals to a testable shortlist).
+- Led results interpretation and drafted the manuscript with supervisor feedback.
 
 ### Experimental linkage
 Prioritization was followed by **in vitro testing** in RT models (RT-PDX-derived models and U-RT1 cell line).
