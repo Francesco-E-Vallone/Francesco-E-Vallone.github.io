@@ -3,13 +3,11 @@ title: ""
 page-layout: full
 ---
 
-## Computational cancer biologist (omics) — CLL & Richter transformation
+## Computational biologist — multi-omics in CLL & Richter transformation
 
-PhD candidate at the *University of Turin* (Functional Genomics Unit, Italy) in computational cancer biology. 
+I am a PhD candidate at the *University of Turin* (Functional Genomics Unit, Italy) working in computational cancer biology. My main PhD work focuses on **chronic lymphocytic leukemia (CLL)**, where I study how **BCR stereotyped subsets** and *NOTCH1* mutation status shape transcriptional and regulatory programs using multi-omics. In parallel, I work on **Richter transformation (RT)** as a separate cross-cohort, translational line.
 
-PhD candidate at the *University of Turin* (Functional Genomics Unit, Italy) in computational cancer biology.
-
-My main track is **chronic lymphocytic leukemia (CLL)**: I study how **BCR stereotyped subsets** and *NOTCH1* mutation status shape transcriptional and regulatory programs using multi-omics. In parallel, I work on **Richter transformation (RT)** — the aggressive lymphoma that can arise from CLL — as a separate cross-cohort, translational line.
+My background is in biotechnology, and during my PhD I realized that what interests me is not just one disease in particular, but how cells behave differently depending on their tissue context, and how disease reshapes those behaviors. That is why, alongside disease-facing multi-omics, I am increasingly interested in single-cell, spatial, and multimodal biology.
 
 ### What I’m working on now
 - **Main PhD (CLL): BCR stereotypy × *NOTCH1*** — multi-omics profiling of genotype-linked transcriptional/regulatory programs across **IGHV4-34**, **IGHV1-69**, and **IGHV3-21** BCR stereotypes.
@@ -22,7 +20,7 @@ My main track is **chronic lymphocytic leukemia (CLL)**: I study how **BCR stere
 - **Teaching:** BSc Biotechnology (Medical & Cancer Genetics; Epigenetics);  MSc Medical Biotechnology (Biotech Therapies)
 
 ### Education
-- **PhD, Medical Physiopathology (Computational Biology/Bioinformatics)** — University of Turin — 2024–present (expected: **Feb/March 2027**)
+- **PhD, Medical Physiopathology (Computational Biology/Bioinformatics)** — University of Turin — 2024–present (expected completion: **Mar–May 2027**)
 - **Master II (Omics Data Analysis)** — University of Padua — 2023–2024 (completed during first PhD year)
 - **MSc, Molecular Biotechnology** — University of Turin — 2021–2023
 - **BSc, Biomedical Biotechnology** — University of Palermo — 2018–2021
